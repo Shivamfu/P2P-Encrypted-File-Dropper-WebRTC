@@ -1,0 +1,26 @@
+{
+  "name": "p2p-file-dropper",
+  "version": "1.0.0",
+  "description": "Direct browser-to-browser encrypted file transfer tool using WebRTC DataChannels and local SHA-256 integrity verification.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test-crypto.js && node test-signaling.js"
+  },
+  "keywords": [
+    "webrtc",
+    "p2p",
+    "file-transfer",
+    "encryption",
+    "sha-256",
+    "datachannel",
+    "browser-to-browser"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "qrcode": "^1.5.4",
+    "ws": "^8.19.0"
+  }
+}
